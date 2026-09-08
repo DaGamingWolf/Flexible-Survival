@@ -3,3 +3,25 @@ Dys/Notes.txt
 .tags1
 .tags_swap
 myrelease.bat
+
+#ignore unnessessary inform folders and files
+/Telemetry/
+/Templates/
+/Documentation/
+cel.txt
+ceflog.txt
+#just in case it pops up there
+/Projects/*.inform/cel.txt
+
+# Ignore Inform compiler binaries and temporary builds
+/Projects/*.inform/Build
+/Projects/*.materials/Release
+
+
+# Ignore Inform IDE user settings and auto generated files
+/Projects/*.inform/settings.plist
+/Projects/*.inform/release.blurb
+/Projects/*.inform/skein.skein
+/Projects/*.inform/skein.skein-old
+/Projects/*.inform/manifest.plist
+
